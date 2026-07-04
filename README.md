@@ -1,4 +1,4 @@
-# 🌱 Automated Irrigation Controller using ESP32
+#  Automated Irrigation Controller using ESP32
 
 An ESP32-based **Automated Irrigation Controller** that monitors soil moisture (simulated using a potentiometer), processes analog sensor data using **oversampling** and an **Exponential Moving Average (EMA) filter**, and automatically controls a water pump through a relay using **hysteresis-based decision logic**.
 
@@ -6,21 +6,21 @@ This project demonstrates key embedded systems concepts such as ADC processing, 
 
 ---
 
-## 📌 Features
+##  Features
 
-- 📈 Analog sensor data acquisition using ESP32 ADC
-- 🔄 Oversampling for improved measurement accuracy
-- 📊 Exponential Moving Average (EMA) filtering
-- 📏 Moisture percentage calculation using `map()` and `constrain()`
-- ⚙️ Dual-threshold hysteresis logic
-- 💧 Automatic relay-controlled pump operation
-- 🖥️ Real-time LCD display
-- 🚦 LED indicators for soil moisture status
-- 📡 Serial Monitor output for debugging
+- Analog sensor data acquisition using ESP32 ADC
+- Oversampling for improved measurement accuracy
+-  Exponential Moving Average (EMA) filtering
+-  Moisture percentage calculation using `map()` and `constrain()`
+-  Dual-threshold hysteresis logic
+-  Automatic relay-controlled pump operation
+-  Real-time LCD display
+-  LED indicators for soil moisture status
+-  Serial Monitor output for debugging
 
 ---
 
-## 🛠️ Components Used
+##  Components Used
 
 | Component | Quantity |
 |-----------|----------|
@@ -36,7 +36,7 @@ This project demonstrates key embedded systems concepts such as ADC processing, 
 
 ---
 
-## 🔌 Circuit Connections
+##  Circuit Connections
 
 ### Potentiometer
 
@@ -73,7 +73,7 @@ This project demonstrates key embedded systems concepts such as ADC processing, 
 
 ---
 
-## ⚙️ Working Principle
+##  Working Principle
 
 1. The potentiometer simulates varying soil moisture levels.
 2. The ESP32 reads the analog voltage through its ADC.
@@ -91,7 +91,7 @@ This project demonstrates key embedded systems concepts such as ADC processing, 
 
 ---
 
-## 📊 Hysteresis Logic
+##  Hysteresis Logic
 
 | Moisture Level | Pump Status |
 |----------------|-------------|
@@ -103,7 +103,7 @@ This deadband prevents rapid relay switching and improves system reliability.
 
 ---
 
-## 📷 Project Preview
+##  Project Preview
 
 > Add screenshots of:
 
@@ -116,7 +116,7 @@ This deadband prevents rapid relay switching and improves system reliability.
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Replace the potentiometer with a real soil moisture sensor
 - IoT cloud monitoring using MQTT or ThingSpeak
@@ -128,7 +128,7 @@ This deadband prevents rapid relay switching and improves system reliability.
 
 ---
 
-## 💻 Technologies Used
+##  Technologies Used
 
 - Embedded C++
 - Arduino IDE
@@ -139,7 +139,7 @@ This deadband prevents rapid relay switching and improves system reliability.
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, the following embedded systems concepts were implemented:
 
@@ -155,13 +155,13 @@ Through this project, the following embedded systems concepts were implemented:
 
 ---
 
-## 📄 License
+##  License
 
 This project is intended for educational and learning purposes.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Janani M**
 
